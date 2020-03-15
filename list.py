@@ -36,11 +36,17 @@ print(list)
 
 #Count of list
 count = len(list)
-
+print(count)
 
 #Remove from list
 list.remove('index7')
 print(list)
+
+#Print every item in list
+for item in list:
+    print (item)
+
+
 
 # The first and second items (index zero and one)
 first = list[0:2]
@@ -56,7 +62,6 @@ print(middle)
 print(last)
 
 
-
 animals = "catdogfrog"
 
 # The first three characters of animals
@@ -69,6 +74,6 @@ dog = animals[3:6]
 frog = animals[6:]
 
 
-for animal in animals:
-    print (animal)
+
+
 
